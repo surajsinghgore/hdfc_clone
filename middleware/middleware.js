@@ -18,7 +18,7 @@ req.token=token;
 req.rootUser=rootUser;
 
 req.userId=rootUser._id;
-console.log(rootUser._id);
+
 
 next();
 } catch (error) {
