@@ -8,7 +8,7 @@ const PORT=process.env.PORT || 5000;
 
 dotenv.config()
 const buildPath = path.join(__dirname, 'client/build')
-app.use(cors({origin:"http://localhost:3000"}));
+app.use(cors({origin:"https://hdfc-clone.onrender.com"}));
 app.use(express.static(buildPath))
 //require database here
 require('./database/connection')
