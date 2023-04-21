@@ -1,0 +1,104 @@
+.contact{
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);   
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    
+    overflow: hidden;
+}
+
+
+
+.form{
+position: absolute;
+top: 14%;
+left: 19%;
+width: 70%;
+height: 500px;
+background: #302b63;
+text-align: center;
+}
+.form h1{
+   
+    font-size: 33px;
+    color: white;
+}
+form input{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 30%;
+    color: rgb(14, 126, 231);
+    opacity: 1;
+    font-size: 15px;
+    padding-left: 5px;
+    
+    margin-left: 8px;
+}
+form textarea{
+    margin-top: 20px;
+    width: 92.5%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    height: 250px;
+}
+form .submit{
+   
+    margin-top: 20px;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+background-color: #120f35;
+}
+
+
+@media screen and (max-width: 720px){
+    .contact{
+
+    }
+    .form{
+
+        position: relative;
+top:3%;
+left: 2%;
+width: 96%;
+height: auto;
+margin-bottom: 10%;
+    }
+    .form h1{
+        margin-left: 0;
+        font-size: 2rem;
+       
+    }
+    form input{
+        
+        height: 40px;
+        text-align: center;
+        width: 90%;
+        color: rgb(14, 122, 223);
+        opacity: 1;
+        font-size: 0.9rem;
+      
+        margin-top: 5%;
+        margin-left:0%;
+    }
+    form textarea{
+        margin-top: 20px;
+        width: 90%;
+        outline: none;
+        border: none;
+        font-size: 0.9rem;
+        height: 250px;
+    }
+    form .submit{
+   
+        margin-top: 10px;
+        width: 60%;
+        margin-bottom: 10%;
+        color: white;
+        font-size:1.4rem;
+       
+    }
+}
