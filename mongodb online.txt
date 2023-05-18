@@ -1,1 +1,0 @@
-mongodb+srv://surajsinghgore:<password>@cluster0.gc5g7.mongodb.net/test

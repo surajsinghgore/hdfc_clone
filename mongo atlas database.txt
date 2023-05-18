@@ -1,9 +1,0 @@
-un
-surajthakurrs45
-
-pass
-Suraj@3224@5361
-
-
-id
-mongodb+srv://surajthakurrs45:Suraj@3224@5361@cluster0.u7qgs.mongodb.net/merndata?retryWrites=true&w=majority
